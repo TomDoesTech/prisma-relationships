@@ -1,0 +1,24 @@
+{
+  "name": "prisma-pre",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "tomanagle",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/node": "^18.11.0",
+    "tsx": "^3.10.3",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@prisma/client": "4.4.0",
+    "prisma": "^4.4.0"
+  },
+  "scripts": {
+    "1": "tsx src/1-one-to-one.ts",
+    "2": "tsx src/2-one-to-many.ts",
+    "3": "tsx src/3-many-to-many.ts",
+    "4": "tsx src/4-many-to-many.ts"
+  }
+}
